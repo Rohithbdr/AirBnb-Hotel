@@ -25,7 +25,7 @@ cartBg.onclick = () => {
             <img src=${storedObj.image.url} alt="hotel" />
         </div>
         <div class="book-details">
-            <p>Total Price: $${parseFloat(storedObj.price) + 12}</p>
+            <p>Total Price: $${parseInt(storedObj.price) + 12}</p>
             <button class="cancel-booking">Cancel Booking</button>
         </div>
     </div>
