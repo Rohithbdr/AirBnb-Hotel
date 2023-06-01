@@ -328,7 +328,7 @@ a {
 
 .corousel-bg {
     display: flex;
-    transition: .4s ease-in-out;
+    transition: .4s;
 }
 
 
